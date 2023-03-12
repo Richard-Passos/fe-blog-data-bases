@@ -2,7 +2,7 @@
 import { Container, Content, IconContainer } from "./Footer.style";
 import { Title } from "@/utils";
 import Link from "next/link";
-import { Github, Linkedin } from "styled-icons/boxicons-logos";
+import { Github, Linkedin } from "@styled-icons/boxicons-logos";
 
 export default function Footer() {
   return (
