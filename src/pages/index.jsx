@@ -153,20 +153,18 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div>
-                <Title size={1} as="h4">
-                  Conclusão
-                </Title>
+              <Title size={1.25} as="h4">
+                Conclusão
+              </Title>
 
-                <p>
-                  Até alguns anos atrás utilizar um SGBD para gerenciar o seu
-                  banco de dados era algo opcional hoje é algo primordial,
-                  devido às aplicações estarem cada vez mais utilizando dados, é
-                  necessário ter um controle maior e mais eficiente e com um
-                  SGBD você vai conseguir isso, com mais facilidade além de
-                  muitas outras vantagens.
-                </p>
-              </div>
+              <p>
+                Até alguns anos atrás utilizar um SGBD para gerenciar o seu
+                banco de dados era algo opcional hoje é algo primordial, devido
+                às aplicações estarem cada vez mais utilizando dados, é
+                necessário ter um controle maior e mais eficiente e com um SGBD
+                você vai conseguir isso, com mais facilidade além de muitas
+                outras vantagens.
+              </p>
             </SectionContainer>
           </Section>
         </a>
@@ -207,7 +205,7 @@ export default function Home() {
                 quality={100}
               />
 
-              <div>
+              <span>
                 <Title size={1.2}>
                   Consistência <br /> — Todo mundo vendo a mesma coisa? —
                 </Title>
@@ -216,8 +214,9 @@ export default function Home() {
                   todos devem ver a mesma coisa. Quando algo é registrado em um
                   nó, ele deve ser replicado aos outros nós.
                 </p>
-              </div>
-              <div>
+              </span>
+
+              <span>
                 <Title size={1.2}>
                   Disponibilidade <br /> — Todo mundo conseguindo acessar? —
                 </Title>
@@ -227,8 +226,9 @@ export default function Home() {
                   esteja com a sua versão mais recente, mas se deve ter a
                   garantia da resposta sem falha.
                 </p>
-              </div>
-              <div>
+              </span>
+
+              <span>
                 <Title size={1.2}>
                   Particionamento <br /> — Mesmo sem um nó, continua
                   funcionando? —
@@ -238,7 +238,7 @@ export default function Home() {
                   continuar funcionando. Criando grupos de nós isolados que
                   mantenham o funcionamento do sistema.
                 </p>
-              </div>
+              </span>
             </SectionContainer>
           </Section>
 

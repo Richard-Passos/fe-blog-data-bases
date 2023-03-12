@@ -38,6 +38,14 @@ export const SectionContainer = styled.div`
   flex-direction: column;
   gap: 2rem;
 
+  span {
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   div {
     padding: 2rem;
     margin-top: 1rem;
