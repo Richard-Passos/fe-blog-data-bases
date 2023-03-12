@@ -27,7 +27,6 @@ export const globalStyle = createGlobalStyle`
   body {
     padding-top: 30.9rem;
     background-color: ${colors.primary};
-    font-family: 'Roboto', sans-serif;
 
     /* Handle header height */
     @media screen and (min-width: 310px) {
