@@ -125,7 +125,7 @@ export const SectionDemonstration = styled(SectionContainer)`
   }
 
   .explaning {
-    padding: 1rem 2rem;
+    padding: 2rem;
     color: ${colors.primary};
     background-color: ${colors.secondary};
     border: 0.1rem solid ${colors.primary};
