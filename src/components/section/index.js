@@ -1,4 +1,4 @@
 import Section from "./Section";
-import { SectionContainer, SectionImage } from "./Section.style";
+import { SectionContainer, SectionDemonstration } from "./Section.style";
 
-export { Section, SectionContainer, SectionImage };
+export { Section, SectionContainer, SectionDemonstration };

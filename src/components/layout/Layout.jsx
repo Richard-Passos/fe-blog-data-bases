@@ -5,7 +5,7 @@ import { Container } from "./Layout.style";
 import { Footer } from "../footer";
 
 /* Logic */
-import { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -47,9 +47,12 @@ export default function Layout({ children }) {
         <link rel="icon" href="/images/favicon.png" />
       </Head>
 
-      <Header disappear={headerDisappear} />
-      {children}
-      <Footer />
+      <HeaderContext.Provider value={headerDisappear}>
+        {children}
+      </HeaderContext.Provider>
     </Container>
   );
 }
+
+/* Context to use on header */
+export const HeaderContext = createContext();

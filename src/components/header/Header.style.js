@@ -30,6 +30,10 @@ export const Container = styled.header`
   &.disappear {
     top: -100%;
   }
+  &.placeholder {
+    position: relative !important;
+    visibility: hidden;
+  }
 
   .logo {
     font-size: 2.5em;

@@ -1,4 +1,4 @@
-/* Style */
+/* Components */
 import { Container } from "./Section.style";
 
 export default function Section({ children }) {

@@ -8,6 +8,7 @@ export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   color: ${colors.secondary};
+  background-color: ${colors.primary};
 `;
 
 export const Content = styled.div`

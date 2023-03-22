@@ -1,4 +1,4 @@
-/* Style */
+/* Components */
 import { List } from "./Nav.style";
 
 export default function Nav({ children }) {
