@@ -166,12 +166,12 @@ export default function IndexesDB() {
                 Demonstração-01
               </Title>
 
-              <div className="container">
-                <p>
-                  A primeira busca será pela chave “overall”, faremos uma busca
-                  por todos os documentos com “overall” menor que 5.
-                </p>
+              <p>
+                A primeira busca será pela chave “overall”, faremos uma busca
+                por todos os documentos com “overall” menor que 5.
+              </p>
 
+              <div className="container">
                 <small>
                   Imagem-01 | Para uma melhor visualização clique na imagem
                   <Image
@@ -198,13 +198,13 @@ export default function IndexesDB() {
                 </p>
               </div>
 
-              <div className="container">
-                <p>
-                  Agora aplicamos um índice crescente ao “overall”. Faremos a
-                  mesma busca anterior, mas agora com o índice, perceba que a
-                  busca em sí não mudará nada.
-                </p>
+              <p>
+                Agora aplicamos um índice crescente ao “overall”. Faremos a
+                mesma busca anterior, mas agora com o índice, perceba que a
+                busca em sí não mudará nada.
+              </p>
 
+              <div className="container">
                 <small>
                   imagem-02 | Para uma melhor visualização clique na imagem
                   <Image
@@ -240,12 +240,12 @@ export default function IndexesDB() {
                 Demonstração-02
               </Title>
 
-              <div className="container">
-                <p>
-                  A segunda busca será pela chave “asin”, faremos uma busca por
-                  todos os documentos com “asin” igual a "1384719342".
-                </p>
+              <p>
+                A segunda busca será pela chave “asin”, faremos uma busca por
+                todos os documentos com “asin” igual a "1384719342".
+              </p>
 
+              <div className="container">
                 <small>
                   Imagem-03 | Para uma melhor visualização clique na imagem
                   <Image
@@ -270,12 +270,12 @@ export default function IndexesDB() {
                 </p>
               </div>
 
-              <div className="container">
-                <p>
-                  Agora aplicamos um índice crescente ao “asin”. Faremos a mesma
-                  busca anterior, mas agora com o índice.
-                </p>
+              <p>
+                Agora aplicamos um índice crescente ao “asin”. Faremos a mesma
+                busca anterior, mas agora com o índice.
+              </p>
 
+              <div className="container">
                 <small>
                   imagem-04 | Para uma melhor visualização clique na imagem
                   <Image
@@ -307,20 +307,20 @@ export default function IndexesDB() {
                 Demonstração-03
               </Title>
 
-              <div className="container">
-                <p>
-                  A terceira e última busca será usando{" "}
-                  <a
-                    href="https://www.alura.com.br/conteudo/expressoes-regulares"
-                    target="_blank"
-                    className="text-link"
-                  >
-                    RegEx
-                  </a>{" "}
-                  , faremos uma busca por todos os documentos com “reviewTime”
-                  terminado em "2005"
-                </p>
+              <p>
+                A terceira e última busca será usando{" "}
+                <a
+                  href="https://www.alura.com.br/conteudo/expressoes-regulares"
+                  target="_blank"
+                  className="text-link"
+                >
+                  RegEx
+                </a>{" "}
+                , faremos uma busca por todos os documentos com “reviewTime”
+                terminado em "2005"
+              </p>
 
+              <div className="container">
                 <small>
                   Imagem-05 | Para uma melhor visualização clique na imagem
                   <Image
@@ -345,14 +345,14 @@ export default function IndexesDB() {
                 </p>
               </div>
 
-              <div className="container">
-                <p>
-                  Agora aplicamos um índice do tipo “text” e a busca terá de
-                  mudar. Para que se possa usar RegEx em uma busca com índice,
-                  deve-se usar “$text” e “$search” ao ínves das chaves de um
-                  documento.
-                </p>
+              <p>
+                Agora aplicamos um índice do tipo “text” e a busca terá de
+                mudar. Para que se possa usar RegEx em uma busca com índice,
+                deve-se usar “$text” e “$search” ao ínves das chaves de um
+                documento.
+              </p>
 
+              <div className="container">
                 <small>
                   imagem-06 | Para uma melhor visualização clique na imagem
                   <Image

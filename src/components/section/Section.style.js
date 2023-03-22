@@ -105,8 +105,8 @@ export const SectionDemonstration = styled(SectionContainer)`
     }
   }
 
-  small {
-    font-size: 0.8em;
+  & > p {
+    text-align: center;
   }
 
   .container {
@@ -118,13 +118,9 @@ export const SectionDemonstration = styled(SectionContainer)`
     flex-direction: column;
     gap: 2rem;
 
-    & > * {
-      :first-child {
-        padding: 2rem 1rem 0;
-        text-align: center;
-      }
-
-      padding: 0 1rem;
+    small {
+      padding: 2rem 1rem 0;
+      font-size: 0.8em;
     }
   }
 
