@@ -14,6 +14,7 @@ export default function Footer({ links }) {
           <div data-aos="fade-up" data-aos-duration="2000">
             {links.map((link, i) => (
               <Link
+                key={`footer-link-${i}`}
                 className="link"
                 target="_blank"
                 href={link.href}
