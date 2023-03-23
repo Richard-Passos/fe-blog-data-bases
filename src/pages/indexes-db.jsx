@@ -341,7 +341,7 @@ export default function IndexesDB() {
                 <p className="explaning">
                   Como o RegEx percorre por toda a string, ele se torna mais
                   ineficiente que uma busca normal, podendo ser melhor observado
-                  em uma busca com um banco de dados mais populado.
+                  com uma busca em um banco de dados mais populado.
                 </p>
               </div>
 
