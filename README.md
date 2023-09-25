@@ -16,7 +16,7 @@ Desafio Fullture para fazer pesquisa sobre banco de dados, SGBDs e o teorema CAP
 
 ## :rocket: Run project
 ```
-https://blog-data-bases.vercel.app
+https://fe-blog-data-bases.vercel.app
 ```
 
 <br>
