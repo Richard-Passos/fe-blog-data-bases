@@ -1,18 +1,25 @@
 <h1 align="center">:file_cabinet: Blog data bases</h1>
 
+<br>
+
 ## :memo: Description
 Desafio Fullture para fazer pesquisa sobre banco de dados, SGBDs e o teorema CAP. Decidi já fazer um site sobre o assunto.
+
+<br>
 
 ## :wrench: Technologies used
 * Next
 * Styled-components
 * Aos
 
-## :rocket: Running the project
-### To run the repository, it is recommended to access:
+<br>
+
+## :rocket: Run project
 ```
 https://blog-data-bases.vercel.app
 ```
+
+<br>
 
 ## :handshake: Team
 <table>
@@ -28,5 +35,7 @@ https://blog-data-bases.vercel.app
   </tr>
 </table>
 
-## :dart: Project status
+<br>
+
+## :dart: Status
 Finished
